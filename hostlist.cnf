@@ -1,0 +1,15 @@
+[server1]
+
+username = username
+
+ipaddress = 192.168.2.4
+
+backupdirs = ~/backupdirectory1
+
+[server2]
+
+username = username
+
+ipaddress = 192.168.2.4
+
+backupdirs = ~/backupdirectory1,/backupdirectory2
