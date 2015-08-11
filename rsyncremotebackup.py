@@ -87,7 +87,7 @@ def sendmail(data):
     toaddr=["vasavakrishna@greenbuds.co.in"]
     header = 'From: %s\n' % fromaddr
     header += 'To: %s\n' % ','.join(toaddr)
-    subject = 'Backup failure Intimation'
+    subject = 'Backup  Intimation'
   # header += 'Cc: %s\n' % ','.join(cc_addr_list)
     header += 'Subject: %s\n\n' % subject
     #cmd = ['hostname', '-I']
