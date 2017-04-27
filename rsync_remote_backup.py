@@ -83,8 +83,8 @@ def backup_compress(dir, bfile):
 
 def sendmail(data):
     pattern = r"((([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])[ (\[]?(\.|dot)[ )\]]?){3}([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5]))"
-    fromaddr="vasavakrishna@greenbuds.co.in"
-    toaddr=["vasavakrishna@greenbuds.co.in"]
+    fromaddr="username@domain.com"
+    toaddr=["username@domain.com"]
     header = 'From: %s\n' % fromaddr
     header += 'To: %s\n' % ','.join(toaddr)
     subject = 'Backup  Intimation'
